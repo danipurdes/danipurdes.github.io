@@ -1,0 +1,30 @@
+.header {
+    margin: auto;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-buttons {
+    margin: auto;
+}
+
+.portfolio-element {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    height: 300px;
+    margin: 5px;
+}
+
+.portfolio-image {
+    float: left;
+    height: 290px;
+    padding: 5px;
+}
+
+.portfolio-text {
+    padding-left: 50px
+}
