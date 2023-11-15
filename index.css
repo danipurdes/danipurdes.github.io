@@ -18,7 +18,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: #000;
-    height: 325px;
+    min-height: 325px;
     margin: 5px;
 }
 
@@ -35,7 +35,12 @@
 }
 
 .portfolio-text {
-    padding-left: 50px
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.portfolio-text p {
+    max-width: 500px;
 }
 
 ul {
