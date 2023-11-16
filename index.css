@@ -19,6 +19,7 @@
     border-width: 1px;
     border-color: #000;
     min-height: 325px;
+    min-width: 570px;
     margin: 5px;
 }
 
