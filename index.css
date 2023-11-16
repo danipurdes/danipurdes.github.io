@@ -10,6 +10,20 @@
     text-align: center;
 }
 
+#nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-links li{
+    border-right: 1px solid rgb(17, 17, 17);
+    padding: 1rem;
+}
+  
+#nav-links li:last-of-type {
+    border-right: none;
+}
+
 .navbar-button {
     display: inline-block;
 }
@@ -44,7 +58,7 @@
     max-width: 500px;
 }
 
-ul {
+.portfolio-text ul {
     display: block;
     list-style-type: disc;
     list-style-position: inside;
