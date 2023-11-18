@@ -1,11 +1,20 @@
+body {
+    background-color: #FFE2D6;
+    font-family: Verdana;
+}
+
 .header {
     margin: auto;
     width: 100%;
     text-align: center;
 }
 
+.header h1 {
+    color: #111;
+    font-family: Arial;
+}
+
 .navbar {
-    width: 50%;
     margin: auto;
     text-align: center;
 }
@@ -13,11 +22,17 @@
 #nav-links {
     list-style-type: none;
     display: flex;
+    margin: auto;
+    width: 25%;
+    background-color: #F5FFFA;
+    border-radius: 2px;
 }
 
 #nav-links li{
-    border-right: 1px solid rgb(17, 17, 17);
+    border-right: 1px solid #111;
     padding: 1rem;
+    height: 90%;
+    font-weight: bold;
 }
   
 #nav-links li:last-of-type {
@@ -29,11 +44,12 @@
 }
 
 .portfolio-element {
+    background-color: #20B2AA;
     border-style: solid;
     border-width: 1px;
-    border-color: #000;
+    border-color: #008B8B;
+    border-radius: 2px;
     min-height: 325px;
-    min-width: 570px;
     margin: 5px;
 }
 
@@ -50,12 +66,13 @@
 }
 
 .portfolio-text {
+    background-color: #F5FFFA;
     padding-left: 50px;
+    padding-right: 50px;
+    margin: 5px;
     display: inline-block;
-}
-
-.portfolio-text p {
-    max-width: 500px;
+    min-height: 315px;
+    max-width: 750px;;
 }
 
 .portfolio-text ul {
