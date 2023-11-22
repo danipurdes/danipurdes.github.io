@@ -3,32 +3,43 @@
     <head>
         <title>Danielle Purdes - Portfolio Page</title>
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
     </head>
     <body>
         <header class="header">
             <h1>Danielle Purdes</h1>
-            <p>Software Engineer @ Microsoft since January 2022 & Long-Time Hobbyist Game Developer. I also dabble in pixel art, low-poly 3d art, and have made my own music for various projects.</p>
+            <p>Software Engineer @ Microsoft since January 2022. Former Game Programmer @ Everi Inc. I also dabble in pixel art, low-poly 3d art, and have made my own music for various projects.</p>
         </header>
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="">My Resume</a></li>
-                <li><a href="https://github.com/danipurdes" title="Github"><i class="bi-github"></i></a></li>
-                <li><a href="https://linkedin.com/in/daniellepurdes" title="LinkedIn"><i class="bi-linkedin"></i></a></li>
+                <li>
+                    <a href="">
+                        <img src="icons/file-earmark-text.svg"/>My Resume
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/danipurdes" alt="Github logo" title="Github Profile for Dani Purdes">
+                        <img src="icons/github.svg"/>Github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/daniellepurdes" alt="LinkedIn logo" title="LinkedIn Profile for Dani Purdes">
+                        <img src="icons/linkedin.svg"/>LinkedIn
+                    </a>
+                </li>
             </ul>
         </nav>
-        <div id="portfolio">
-            <h2>Featured Projects</h2>
+        <!-- <h2>Featured Projects</h2> -->
+        <div class="portfolio">
             <!-- Blastium -->
             <div class="portfolio-element">
                 <img class="portfolio-media" src="blastium-screenshot.png" alt="Gameplay screenshot of Blastium"/>
                 <div class="portfolio-text">
                     <h3>Blastium</h3>
                     <p>Old-school 2D space shooter inspired by Asteroids and Bosconian.</p>
-                    <h4>Credits:</h4>
                     <ul>
-                        <li>Developer - Dani Purdes</li>
-                        <li>Fonts - Chris W Early</li>
+                        <li>Developed by Dani Purdes</li>
+                        <li>Fonts by Chris W Early</li>
                     </ul>
                     <p><span class="tag csharp">Lua</span><span class="tag csharp">Love2D</span></p>
                     <iframe frameborder="0" src="https://itch.io/embed/126687?linkback=true" width="552" height="167"><a href="https://danipurdes.itch.io/blastium">Blastium by Dani Purdes</a></iframe>
