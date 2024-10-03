@@ -37,13 +37,16 @@ function NavItem( {name, image, title, url} ) {
   );
 }
 
-function PortfolioItem( {name, videoUrl, description, tags} ) {
+function PortfolioItem( {name, videoUrl, landingUrl, description, tags} ) {
+  let landingLink = landingUrl ? <a href={landingUrl}>Visit {name} Site</a> : "";
+
   return (
     <div className="portfolio-element">
       <iframe className="portfolio-media" width="560" height="315" src={videoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="0" allowfullscreen></iframe>
       <div className="portfolio-text">
         <h3>{name}</h3>
         <p>{description}</p>
+        {landingLink}
         <PortfolioTags tags={tags} />
       </div>
     </div>
@@ -97,6 +100,12 @@ function App() {
       <Header />
       <NavBar items={navItems}/>
       <div class="portfolio">
+        <PortfolioItem 
+          name="Tea Time"
+          description="From harvesting tea leaves to brewing the perfect cup of tea, run an independent tea house your way in Tea Time. Currently in Alpha Development."
+          landingUrl="https://danipurdes.github.io/playteatime/"
+          tags= {["Godot", "Blender"]}
+        />
         <PortfolioItemItchio
           name="Blastium"
           image={blastium_screenshot}
