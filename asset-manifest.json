@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.be1d6570.css",
-    "main.js": "/static/js/main.cad86d10.js",
+    "main.css": "/static/css/main.dd5ffa34.css",
+    "main.js": "/static/js/main.582a39da.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/blastium-screenshot.png": "/static/media/blastium-screenshot.c33228ba93eeb27f1cb2.png",
     "static/media/github.svg": "/static/media/github.753b08c7ba14176bffc02bcb06b84be3.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.be7d48032471eda545a0952745c45adf.svg",
     "index.html": "/index.html",
-    "main.be1d6570.css.map": "/static/css/main.be1d6570.css.map",
-    "main.cad86d10.js.map": "/static/js/main.cad86d10.js.map",
+    "main.dd5ffa34.css.map": "/static/css/main.dd5ffa34.css.map",
+    "main.582a39da.js.map": "/static/js/main.582a39da.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be1d6570.css",
-    "static/js/main.cad86d10.js"
+    "static/css/main.dd5ffa34.css",
+    "static/js/main.582a39da.js"
   ]
 }
