@@ -37,13 +37,14 @@ function NavItem( {name, image, title, url} ) {
   );
 }
 
-function PortfolioItem( {name, year, image, videoUrl, landingUrl, itchioUrl, embedUrl, description, tags} ) {
+function PortfolioItem( {name, year, image, repoUrl, videoUrl, landingUrl, itchioUrl, embedUrl, description, tags} ) {
   let landingLink = landingUrl ? <a href={landingUrl}>Visit {name} Site</a> : "";
   let yearText = year ? " (" + year + ")" : "";
   let imageElement = image ? <img className="portfolio-media" src={image} alt="Gameplay screenshot of " name/> : "";
+  let repoLink = repoUrl ? <a href={repoUrl}>View {name} Repo on Github</a> : "";
   let videoEmbed = videoUrl ? 
     <iframe className="portfolio-media" width="560" height="315" src={videoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="0" allowfullscreen></iframe> : "";
-  let itchioEmbed = itchioUrl && embedUrl ? <iframe title={name + " - itch.io"} frameborder="0" src={embedUrl} width="552" height="167"><a href={itchioUrl}>{name}</a></iframe> : "";
+  let itchioEmbed = itchioUrl && embedUrl ? <iframe className="portfolio-text" title={name + " - itch.io"} frameborder="0" src={embedUrl} width="552" height="167"><a href={itchioUrl}>{name}</a></iframe> : "";
 
   return (
     <div className="portfolio-element">
@@ -53,9 +54,10 @@ function PortfolioItem( {name, year, image, videoUrl, landingUrl, itchioUrl, emb
         <h3>{name}{yearText}</h3>
         <PortfolioTags tags={tags} />
         <p>{description}</p>
+        {repoLink}
         {landingLink}
-        {itchioEmbed}
       </div>
+      {itchioEmbed}
     </div>
   );
 }
@@ -69,6 +71,17 @@ function PortfolioTags( {tags} ) {
     <ul className="tag-list">
       {tagList}
     </ul>
+  );
+}
+
+function Footer() {
+  let currentYear = "2024";
+
+  return (
+    <div className="footer">
+      <p>© {currentYear} Danielle Purdes. All rights reserved.</p>
+      <p>Site made with React. <a href="https://github.com/danipurdes/danipurdes.github.io">View repo on Github</a></p>
+    </div>
   );
 }
 
@@ -104,6 +117,7 @@ function App() {
           name="Blastium"
           year="2017"
           image={blastium_screenshot}
+          repoUrl="https://github.com/danipurdes/Blastium"
           itchioUrl="https://danipurdes.itch.io/blastium"
           embedUrl="https://itch.io/embed/126687?linkback=true"
           description="Retro 2D space shooter inspired by Asteroids and Bosconian. Fonts by Chris W Early"
@@ -131,6 +145,7 @@ function App() {
           tags={["C#", "Unity"]}
         />
       </div>
+      <Footer />
     </div>
   );
 }
