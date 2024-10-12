@@ -1,28 +1,51 @@
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('media/fonts/opensans-bold/opensans-bold-webfont.woff2') format('woff2'),
+       url('media/fonts/opensans-bold/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'walter_turncoatregular';
+  src: url('media/fonts/walter-turncoat/walterturncoat-webfont.woff2') format('woff2'),
+       url('media/fonts/walter-turncoat/walterturncoat-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  background-color: oklch(0.918003 0.0186 123.72);
-  font-family: Verdana;
+  background-color: #A1D6B2;
+  font-family: Georiga, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.border-box {
+  background-color: #F1F3C2;
+  border: #008B8B solid;
+  border-width: 1px;
+  border-radius: 8px;
 }
 
 /* Header */
 .header {
-  margin: auto;
-  width: 100%;
+  margin: 10px;
   text-align: center;
+  background-color: #F1F3C2;
+  padding-bottom: 10px;
 }
 
 .header h1 {
   color: #111;
-  font-family: Arial;
+  font-family: "walter_turncoatregular";
+  font-size: 42px;
+  margin: 5px;
 }
 
 .header p {
   margin: auto;
-  max-width: 75%;
+  max-width: 85%;
 }
 
 /* Navigation */
@@ -32,19 +55,25 @@ body {
   margin-bottom: 1em;
 }
 
-
-.nav-links img {
-  padding-right: 5px;
+.nav-links {
+  padding: 0;
 }
 
 .nav-links li {
   list-style-type: none;
   display: inline-block;
-  margin: 10px;
-  padding: 0px;
-  font-weight: bold;
+  margin: 0px 5px;
+  padding: 10px;
   color: black;
   vertical-align: middle;
+  font-family: "open_sansbold";
+}
+
+.nav-links img {
+  padding-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: baseline;
 }
 
 /* Portfolio Entries */
@@ -59,41 +88,53 @@ body {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 1;
-  background-color: #F5FFFA;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #008B8B;
-  border-radius: 2px;
+  background-color: #F1F3C2;
   min-width: 552px;
   max-width: 570px;
-  padding-top: 5px;
+  padding: 10px 5px 5px;
 }
 
 .portfolio-media {
   display: block;
   height: 315px;
   margin: auto;
+  border: #CEDF9F solid 1px;
 }
 
 .portfolio-text {
-  background-color: #F5FFFA;
-  padding: 5px;
-  margin: 5px;
+  margin: 0px 5px 10px;
+}
+
+.portfolio-text h2 {
+  /* font-family: 'open_sansbold'; */
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+.portfolio-text p {
+  font-family: 'Georgia, serif;'
+}
+
+.portfolio-text a {
+  margin: 10px;
 }
 
 .tag-list {
-  margin: 5px 0;
+  margin: 0;
   padding: 0;
 }
 
 .tag {
   display: inline-block;
-  background-color: #FFE2D6;
-  border-radius: 10px;
+  background-color: #E8B86D;
+  border-radius: 15px;
   padding: 5px 10px;
-  margin: 5px;
+  margin: 2px;
+  font-family: 'open_sansbold';
 }
 
+/* Footer */
 .footer {
   text-align: center;
+  margin: 10px;
 }
