@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd5ffa34.css",
-    "main.js": "/static/js/main.582a39da.js",
+    "main.css": "/static/css/main.c3cec953.css",
+    "main.js": "/static/js/main.ffed91c3.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/blastium-screenshot.png": "/static/media/blastium-screenshot.c33228ba93eeb27f1cb2.png",
-    "static/media/github.svg": "/static/media/github.753b08c7ba14176bffc02bcb06b84be3.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.be7d48032471eda545a0952745c45adf.svg",
+    "static/media/walterturncoat-webfont.woff": "/static/media/walterturncoat-webfont.848dc1fd4563343d3b6b.woff",
+    "static/media/walterturncoat-webfont.woff2": "/static/media/walterturncoat-webfont.844352ef07abf4f10f09.woff2",
+    "static/media/opensans-bold-webfont.woff": "/static/media/opensans-bold-webfont.33548d43a67a4cd1683b.woff",
+    "static/media/opensans-bold-webfont.woff2": "/static/media/opensans-bold-webfont.9e9e4af093e374d72e91.woff2",
     "index.html": "/index.html",
-    "main.dd5ffa34.css.map": "/static/css/main.dd5ffa34.css.map",
-    "main.582a39da.js.map": "/static/js/main.582a39da.js.map",
+    "main.c3cec953.css.map": "/static/css/main.c3cec953.css.map",
+    "main.ffed91c3.js.map": "/static/js/main.ffed91c3.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd5ffa34.css",
-    "static/js/main.582a39da.js"
+    "static/css/main.c3cec953.css",
+    "static/js/main.ffed91c3.js"
   ]
 }
