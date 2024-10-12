@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'walter_turncoatregular';
+  src: url('media/fonts/walter-turncoat/walterturncoat-webfont.woff2') format('woff2'),
+       url('media/fonts/walter-turncoat/walterturncoat-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #A1D6B2;
-  font-family: Verdana;
+  font-family: Georiga, serif;
   margin: 0;
   padding: 0;
 }
@@ -30,14 +38,14 @@ body {
 
 .header h1 {
   color: #111;
-  font-family: "open_sansbold";
-  font-size: 36px;
+  font-family: "walter_turncoatregular";
+  font-size: 42px;
+  margin: 5px;
 }
 
 .header p {
   margin: auto;
   max-width: 85%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Navigation */
@@ -98,11 +106,13 @@ body {
 }
 
 .portfolio-text h2 {
-  font-family: 'open_sansbold';
+  /* font-family: 'open_sansbold'; */
+  font-family: Georgia, serif;
+  font-size: 24px;
 }
 
 .portfolio-text p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Georgia, serif;'
 }
 
 .portfolio-text a {
@@ -120,6 +130,7 @@ body {
   border-radius: 15px;
   padding: 5px 10px;
   margin: 2px;
+  font-family: 'open_sansbold';
 }
 
 /* Footer */
