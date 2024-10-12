@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Email",
+      "image": "media/icons/letter-openmoji.svg",
+      "title": "Contact Dani Purdes",
+      "url": "mailto:daniellepurdes@gmail.com"
+    },
+    {
+      "name": "Github",
+      "image": "media/icons/github-mark.svg",
+      "title": "Github Profile for Dani Purdes",
+      "url": "https://github.com/danipurdes"
+    },
+    {
+      "name": "LinkedIn",
+      "image": "media/icons/linkedin.svg",
+      "title": "LinkedIn Profile for Dani Purdes",
+      "url": "https://linkedin.com/in/daniellepurdes"
+    }
+]
