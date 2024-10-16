@@ -80,7 +80,7 @@ body {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: 10px;
   justify-content: center;
 }
 
@@ -89,16 +89,18 @@ body {
   flex-shrink: 0;
   flex-basis: 1;
   background-color: #F1F3C2;
-  min-width: 552px;
-  max-width: 570px;
+  max-width: min(90%, 552px);
+  /* min-width: 552px; */
+  /* margin: 10px; */
   padding: 10px 5px 5px;
 }
 
 .portfolio-media {
   display: block;
-  height: 315px;
+  /* height: 315px; */
   margin: auto;
   border: #CEDF9F solid 1px;
+  max-width: min(85%, 560px);
 }
 
 .portfolio-text {
@@ -106,8 +108,7 @@ body {
 }
 
 .portfolio-text h2 {
-  /* font-family: 'open_sansbold'; */
-  font-family: Georgia, serif;
+  font-family: 'walter_turncoatregular';
   font-size: 24px;
 }
 
@@ -137,4 +138,5 @@ body {
 .footer {
   text-align: center;
   margin: 10px;
+  padding: 0 10px;
 }
