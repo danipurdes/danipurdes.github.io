@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3cec953.css",
-    "main.js": "/static/js/main.ffed91c3.js",
+    "main.css": "/static/css/main.1fbe54b7.css",
+    "main.js": "/static/js/main.2fc46781.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/walterturncoat-webfont.woff": "/static/media/walterturncoat-webfont.848dc1fd4563343d3b6b.woff",
     "static/media/walterturncoat-webfont.woff2": "/static/media/walterturncoat-webfont.844352ef07abf4f10f09.woff2",
     "static/media/opensans-bold-webfont.woff": "/static/media/opensans-bold-webfont.33548d43a67a4cd1683b.woff",
     "static/media/opensans-bold-webfont.woff2": "/static/media/opensans-bold-webfont.9e9e4af093e374d72e91.woff2",
     "index.html": "/index.html",
-    "main.c3cec953.css.map": "/static/css/main.c3cec953.css.map",
-    "main.ffed91c3.js.map": "/static/js/main.ffed91c3.js.map",
+    "main.1fbe54b7.css.map": "/static/css/main.1fbe54b7.css.map",
+    "main.2fc46781.js.map": "/static/js/main.2fc46781.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3cec953.css",
-    "static/js/main.ffed91c3.js"
+    "static/css/main.1fbe54b7.css",
+    "static/js/main.2fc46781.js"
   ]
 }
