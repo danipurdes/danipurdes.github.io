@@ -64,10 +64,10 @@ function PortfolioItem( {item} ) {
     <a href={item.repoUrl}>View {item.name} Repo on Github</a> :
     "";
   let videoEmbed = item.videoUrl ? 
-    <iframe className="portfolio-media" width="560" height="315" src={item.videoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="0" allowfullscreen></iframe> :
+    <iframe className="portfolio-media" src={item.videoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="0" allowfullscreen></iframe> :
     "";
   let itchioEmbed = item.itchioUrl && item.embedUrl ?
-    <iframe className="portfolio-text" title={item.name + " - itch.io"} frameborder="0" src={item.embedUrl} width="552" height="167">
+    <iframe className="portfolio-media" title={item.name + " - itch.io"} frameborder="0" src={item.embedUrl} width="552" height="167">
       <a href={item.itchioUrl}>{item.name}</a>
     </iframe> : 
     "";
